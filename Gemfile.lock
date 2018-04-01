@@ -41,6 +41,7 @@ GEM
     arel (8.0.0)
     attr_encrypted (3.1.0)
       encryptor (~> 3.0.0)
+    bcrypt (3.1.11)
     builder (3.2.3)
     byebug (10.0.2)
     coderay (1.1.2)
@@ -48,6 +49,7 @@ GEM
     crass (1.0.3)
     encryptor (3.0.0)
     erubi (1.7.1)
+    ffaker (2.8.1)
     ffi (1.9.23)
     globalid (0.4.1)
       activesupport (>= 4.2.0)
@@ -122,6 +124,11 @@ GEM
       sprockets (>= 3.0.0)
     thor (0.20.0)
     thread_safe (0.3.6)
+    tty-cursor (0.5.0)
+    tty-progressbar (0.14.0)
+      tty-cursor (~> 0.5.0)
+      tty-screen (~> 0.6.4)
+    tty-screen (0.6.4)
     tzinfo (1.2.5)
       thread_safe (~> 0.1)
     websocket-driver (0.6.5)
@@ -133,6 +140,8 @@ PLATFORMS
 
 DEPENDENCIES
   attr_encrypted (~> 3.1)
+  bcrypt
+  ffaker (= 2.8.1)
   listen (>= 3.0.5, < 3.2)
   pg (~> 0.21)
   pry
@@ -141,6 +150,7 @@ DEPENDENCIES
   rails (~> 5.1.5)
   spring
   spring-watcher-listen (~> 2.0.0)
+  tty-progressbar
 
 BUNDLED WITH
    1.16.1
