@@ -9,6 +9,7 @@ gem 'rails', '~> 5.1.5'
 gem 'pg', '~> 0.21'
 # Use Puma as the app server
 gem 'puma', '~> 3.7'
+gem 'attr_encrypted', '~> 3.1'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
