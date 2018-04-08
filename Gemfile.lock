@@ -1,3 +1,9 @@
+PATH
+  remote: ../transcryptor
+  specs:
+    transcryptor (0.2.0)
+      attr_encrypted (~> 3.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -150,6 +156,7 @@ DEPENDENCIES
   rails (~> 5.1.5)
   spring
   spring-watcher-listen (~> 2.0.0)
+  transcryptor!
   tty-progressbar
 
 BUNDLED WITH

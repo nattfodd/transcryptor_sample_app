@@ -10,6 +10,7 @@ gem 'pg', '~> 0.21'
 # Use Puma as the app server
 gem 'puma', '~> 3.7'
 gem 'attr_encrypted', '~> 3.1'
+gem 'transcryptor', path: '../transcryptor'
 gem 'bcrypt'
 gem 'ffaker', '2.8.1'
 gem 'tty-progressbar'
