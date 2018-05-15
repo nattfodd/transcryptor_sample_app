@@ -18,8 +18,8 @@ ActiveRecord::Schema.define(version: 20180401000000) do
   create_table "users", force: :cascade do |t|
     t.string "email"
     t.string "password_hash"
-    t.string "encrypted_ssn"
-    t.string "encrypted_ssn_iv"
+    t.string "address"
+    t.string "address_version"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.index ["email"], name: "index_users_on_email", unique: true
