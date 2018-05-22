@@ -11,7 +11,7 @@ default: &default
   host: <%= ENV.fetch('DB_HOST', '127.0.0.1') %>
   port: <%= ENV.fetch('DB_PORT', 5432) %>
   database: <%= ENV.fetch('DB_NAME', nil) %>
-  username: <%= ENV.fetch('DB_USER', 'postgres') %>
+  username: <%= ENV.fetch('DB_USER', 'nattfodd') %>
   password: <%= ENV.fetch('DB_PASSWORD', '') %>
 
 development:
