@@ -4,6 +4,11 @@ PATH
     transcryptor (0.2.0)
       attr_encrypted (~> 3.0)
 
+PATH
+  remote: ../versioned_fields
+  specs:
+    versioned_fields (0.1.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -158,6 +163,7 @@ DEPENDENCIES
   spring-watcher-listen (~> 2.0.0)
   transcryptor!
   tty-progressbar
+  versioned_fields!
 
 BUNDLED WITH
    1.16.1
