@@ -3,8 +3,8 @@ class CreateUsers < ActiveRecord::Migration[5.1]
     create_table :users do |t|
       t.string :email, index: { unique: true }
       t.string :password_hash
-      t.string :encrypted_ssn
-      t.string :encrypted_ssn_iv
+      t.string :address
+      t.string :address_version
 
       t.timestamps
     end
